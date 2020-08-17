@@ -94,26 +94,49 @@ footer{
   align-items: center;
   flex-flow: row wrap;
 }
+header{
+  padding: 15px 0;
+}
 
 header .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
+  margin:0;
 }
-
+.content-wrapper{
+  width:90%;
+  margin: 50px 0;
+}
+.header-divder{
+  width:100%;
+  height:1px;
+  margin:10px 0 20px 0;
+}
 header nav{
+  width:  60%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width:60%;
 }
 
 header nav ul{
   display: flex;
   justify-content: center;
+  width:100%;
 }
-
+footer{
+  flex-direction: column;
+}
+footer p{
+  margin:0;
+}
+footer .contact{
+  margin-bottom: 50px;
+}
 footer .social-icons{
   display:flex;
   justify-content: space-around;
@@ -125,7 +148,13 @@ footer .social-icons p{
   justify-content: center;
   align-items: center;
 }
-
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
+}
+footer .copyright{
+  margin: 20px 0;
+}
 /*--------------Mobile Styles- Homepage---------*/
 
 .hero-area{
@@ -155,14 +184,27 @@ aside{
   justify-content: center;
   flex-flow:row wrap;
 }
+.features h2{
+  margin-bottom: 60px;
+}
 
+.features article{
+  width: 63%;
+  margin: 30px 0;
+}
+.features p{
+  margin: 0;
+}
 /*-------------Reviews-------*/
 .reviews{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
-
+.reviews h3{
+  width: 55%;
+  margin: 20px 0;
+}
 /*---------About Page-------------*/
 
 .mission{
@@ -178,7 +220,9 @@ aside{
   align-items: center;
   flex-flow: row wrap;
 }
-
+.contact-content p{
+  margin: 0;
+}
 /*----------------Faq page------------*/
 .faq{
   display:flex;
@@ -194,7 +238,13 @@ aside{
   flex-flow: row wrap;
 }
 
+.faq h2{
+  margin-bottom: 40px;
+}
 
+.faq-content{
+  margin-bottom: 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
