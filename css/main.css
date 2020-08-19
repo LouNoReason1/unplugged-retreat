@@ -134,6 +134,14 @@ address{
   margin: 50px 0;
 }
 
+img{
+  width: 100%;
+}
+
+figure{
+  margin: 0;
+}
+
 
 /*-----------------------------Header Styles-----*/
 header,
@@ -154,6 +162,32 @@ header .content-wrapper{
   flex-flow:row wrap;
   margin:0;
 }
+
+header figure{
+  width: 60%;
+  display: flex;
+  Justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.header-divider{
+  background: #3a3a3a;
+  height: 1px;
+  width:100%;
+  margin: 10px 0 20px 0;
+}
+header nav{
+
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .content-wrapper{
   width:90%;
   margin: 50px 0;
@@ -177,8 +211,13 @@ header nav ul{
   justify-content: center;
   width:100%;
 }
+
+header nav ul li{
+  font-size: 1.125em;
+}
 footer{
   flex-direction: column;
+  text-align: center;
 }
 footer p{
   margin:0;
@@ -207,6 +246,10 @@ footer .copyright{
 /*--------------Mobile Styles- Homepage---------*/
 
 .hero-area{
+  background: url('../img/homepage.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -247,6 +290,9 @@ input[type=button]{
 /*--------Features-------*/
 
 .features{
+  background: url('../img/heroes.jpg');
+  background-size: cover;
+  background-position: center;
   display:flex;
   justify-content: center;
   flex-flow:row wrap;
