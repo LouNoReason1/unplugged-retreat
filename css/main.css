@@ -96,11 +96,14 @@ body{
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
+  color: #e2e3ed;
 }
 
 ul,
 ol{
   list-style-type:none;
+  margin: 0;
+  padding: 0;
 }
 
 a{
@@ -112,6 +115,7 @@ h2{
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -120,6 +124,7 @@ h4{
   font-weight: 500;
   margin: 20px 0;
   font-size:1.125em;
+  margin: 20px 0;
 }
 
 p{
@@ -237,6 +242,14 @@ footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius:50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icon p i{
+  font-size: 1.3125em;
 }
 footer .content-wrapper{
   width: 55%;
@@ -323,9 +336,20 @@ input[type=button]{
   margin: 0;
 }
 
+.features .features-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 .features i{
   font-size: 3.75em;
   margin-bottom: 40px;
+}
+
+.features p{
+  text-align: center;
+  margin: 0;
 }
 /*-------------Reviews-------*/
 .reviews{
@@ -511,7 +535,7 @@ h3{
 
 header{
   justify-content: space-around;
-  padding: 32px 0;
+  padding: 33px 0;
 }
 
 header .content-wrapper{
@@ -569,7 +593,9 @@ aside .content-wrapper .form{
 .features .features-item-description{
   width: 62%;
 }
-
+.features i{
+  margin-bottom: 30px;
+}
 /*reviews*/
 
 .reviews article{
@@ -607,6 +633,10 @@ footer .contact{
 footer h4{
   font-size: 1.5em;
   margin-bottom: 40px;
+}
+footer .social-icons{
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer p{
@@ -652,7 +682,7 @@ footer .copyright{
 
 }
 .faq-content{
-  flex-basis: 40%;
+  flex-basis: 45%;
 }
 
 .faq h2{
@@ -697,7 +727,7 @@ aside .content-wrapper{
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form{
-  width:35%;
+  width:30%;
 }
 
 .form-description p{
